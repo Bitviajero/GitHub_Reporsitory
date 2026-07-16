@@ -48,20 +48,55 @@ public class Producto
     }
 }
 
+public class Teclado : Producto
+{
+    private string tipo;
+
+    public Teclado(string descripcion, double precio, int cantidad, string tipo)
+        : base(descripcion, precio, cantidad)
+    {
+        this.tipo = tipo;
+    }
+
+    public void MostrarTipo()
+    {
+        Console.WriteLine($"Tipo de Teclado: {tipo}");
+    }
+}
+
+public class Mouse : Producto
+{
+    private string tipo;
+
+    public Mouse(string descripcion, double precio, int cantidad, string tipo)
+        : base(descripcion, precio, cantidad)
+    {
+        this.tipo = tipo;
+    }
+
+    public void MostrarTipo()
+    {
+        Console.WriteLine($"Tipo de Mouse: {tipo}");
+    }
+}
 // Clase Principal: Punto de entrada de la aplicación [17, 18]
 class Program
 {
     static void Main(string[] args)
     {
         // 6. Instanciación: Creación del objeto Producto [19-21]
-        Producto miProducto = new Producto("Teclado Mecánico", 45.50, 10);
+        Teclado miTeclado = new Teclado("Teclado Mecánico", 45.50, 10, "Mecánico");
+        Mouse miMouse = new Mouse("Mouse Inalámbrico", 25.00, 15, "Inalámbrico");
 
         // Acceso a métodos mediante el operador punto (.) [19, 22]
-        miProducto.MostrarInformacion();
+        miTeclado.MostrarInformacion();
+        miTeclado.MostrarTipo();
+        miMouse.MostrarInformacion();
+        miMouse.MostrarTipo();
 
         // Modificación de un atributo a través de su propiedad [23, 24]
-        miProducto.Precio = 42.00;
+        miTeclado.Precio = 42.00;
         Console.WriteLine("\n--- Precio actualizado ---");
-        miProducto.MostrarInformacion();
+        miTeclado.MostrarInformacion();
     }
 }
