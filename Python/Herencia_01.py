@@ -42,3 +42,16 @@ gato = gato("Michi", 3, "Blanco")
 gato.comer()
 gato.dormir()
 gato.maullar()
+
+class vaca(Animal):
+    def __init__(self, nombre, edad, peso):
+        super().__init__(nombre, edad)
+        self.peso = peso
+    
+    def mugir(self):
+        print(f"{self.nombre} esta mugiendo, tiene {self.peso} kg de peso.")
+
+vaca = vaca("la vaca", 4, 500)
+vaca.comer()
+vaca.dormir()
+vaca.mugir()
