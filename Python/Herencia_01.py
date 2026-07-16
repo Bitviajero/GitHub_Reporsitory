@@ -9,16 +9,16 @@ class Animal:
     def dormir(self):
         print(f"{self.nombre} está durmiendo.")
 
-class Perro(Animal):
-    def __init__(self, nombre, edad, raza):
-        super().__init__(nombre, edad)
-        self.raza = raza
+class Perro(Animal):   # en esta linea se define la clase Perro que hereda de la clase Animal
+    def __init__(self, nombre, edad, raza): # en esta linea se agrega el atributo raza a la clase Perro, que hereda de la clase Animal los atributos nombre y edad
+        super().__init__(nombre, edad) # en esta linea se llama al constructor de la clase padre (Animal) para inicializar los atributos nombre y edad
+        self.raza = raza   # en esta linea se inicializa el atributo raza de la clase Perro
 
-    def ladrar(self):
-        print(f"{self.nombre} está ladrando.")
+    def ladrar(self):   # en esta linea se define el metodo ladrar de la clase Perro
+        print(f"{self.nombre} está ladrando.")   # en esta linea se imprime el mensaje de que el perro está ladrando, usando el atributo nombre de la clase padre (Animal)
 #hasta aqui el codigo no imprime nada, solo define las clases y sus metodos
-animal = Animal("Firulais", 5)
-animal.comer()
+animal = Animal("Firulais", 5)  # en esta linea se crea un objeto de la clase Animal llamado animal, con los atributos nombre y edad
+animal.comer() # en esta linea se llama al metodo comer del objeto animal, que imprime el mensaje de que el animal está comiendo
 animal.dormir()
 
 perro = Perro("Firulais", 5, "Golden Retriever")
