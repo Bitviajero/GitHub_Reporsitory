@@ -3,8 +3,8 @@
 public class Animal
 {
     // Atributos
-    private string nombre;
-    private int edad;
+    protected string nombre;
+    protected int edad;
 
     // Constructor
     public Animal(string nombre, int edad)
@@ -25,13 +25,31 @@ public class Animal
     }
 }
 
+public class Perro : Animal
+{
+    private string raza;
+    
+    public Perro(string nombre, int edad, string raza)
+        : base(nombre, edad)
+    {
+        this.raza = raza;
+    }
+
+    public void Informacion()
+    {
+        Console.WriteLine($"{nombre} tiene {edad} años y es un {raza}.");
+    }
+}
+
 class Program
 {
     static void Main(string[] args)
     {
-        Animal animal = new Animal("Firulais", 5);
+        Perro perro = new Perro("Firulais", 5, "Golden Retriever");
 
-        animal.Comer();
-        animal.Dormir();
+        perro.Comer();
+        perro.Dormir();
+        perro.Informacion();
     }
 }
+
