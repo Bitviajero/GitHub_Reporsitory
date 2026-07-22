@@ -1,0 +1,10 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# Visual Studio Code
+.vscode/
+
+*.user
+*.suo
