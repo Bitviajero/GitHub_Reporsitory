@@ -79,6 +79,40 @@ public class Mouse : Producto
         Console.WriteLine($"Tipo de Mouse: {tipo}");
     }
 }
+
+public class Monitor : Producto
+{
+    private string resolucion;
+
+    public Monitor(string descripcion, double precio, int cantidad, string resolucion)
+        : base(descripcion, precio, cantidad)
+    {
+        this.resolucion = resolucion;
+    }
+
+    public void MostrarResolucion()
+    {
+        Console.WriteLine($"Resolución del Monitor: {resolucion}");
+    }
+}
+
+public class Impresora : Producto
+{
+    private string tipoImpresion;
+
+    public Impresora(string descripcion, double precio, int cantidad, string tipoImpresion)
+        : base(descripcion, precio, cantidad)
+    {
+        this.tipoImpresion = tipoImpresion;
+    }
+
+    public void MostrarTipoImpresion()
+    {
+        Console.WriteLine($"Tipo de Impresora: {tipoImpresion}");
+    }
+}
+
+
 // Clase Principal: Punto de entrada de la aplicación [17, 18]
 class Program
 {
@@ -87,16 +121,26 @@ class Program
         // 6. Instanciación: Creación del objeto Producto [19-21]
         Teclado miTeclado = new Teclado("Teclado Mecánico", 45.50, 10, "Mecánico");
         Mouse miMouse = new Mouse("Mouse Inalámbrico", 25.00, 15, "Inalámbrico");
+        Monitor miMonitor = new Monitor("Monitor 24 pulgadas", 150.00, 5, "1920x1080");
+        Impresora miImpresora = new Impresora("Impresora Laser", 200.00, 3, "Laser");
 
         // Acceso a métodos mediante el operador punto (.) [19, 22]
         miTeclado.MostrarInformacion();
         miTeclado.MostrarTipo();
         miMouse.MostrarInformacion();
         miMouse.MostrarTipo();
+        miMonitor.MostrarInformacion();
+        miMonitor.MostrarResolucion();
+        miImpresora.MostrarInformacion();
+        miImpresora.MostrarTipoImpresion();
 
         // Modificación de un atributo a través de su propiedad [23, 24]
         miTeclado.Precio = 42.00;
+        miMonitor.Precio = 140.00;
+        miImpresora.Precio = 180.00;
         Console.WriteLine("\n--- Precio actualizado ---");
         miTeclado.MostrarInformacion();
+        miMonitor.MostrarInformacion();
+        miImpresora.MostrarInformacion();
     }
 }
