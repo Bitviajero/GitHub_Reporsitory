@@ -1,0 +1,996 @@
+📚 ESTRUCTURA DE CURSOS
+📁 Directorio base: C:\Users\Alfonso\Documents\SISTEMAS\Python
+============================================================
+
+📁 Python/
+   ├── 📁 01 Bienvenida/
+   📁 01 Bienvenida/
+      ├── 🎬 001 Presentación personal.mp4
+      └── 🎬 002 Presentación del curso.mp4
+   ├── 📁 02 El entorno de aprendizaje/
+   📁 02 El entorno de aprendizaje/
+      ├── 📁 attached_files/
+      📁 attached_files/
+         └── 📁 004 Descarga de los recursos y ejercicios/
+         📁 004 Descarga de los recursos y ejercicios/
+            ├── 📁 CursoPython-Final/
+            📁 CursoPython-Final/
+               └── 📁 CursoPython/
+               📁 CursoPython/
+                  ├── 📁 Fase 1 - Fundamentos de programacion/
+                  📁 Fase 1 - Fundamentos de programacion/
+                     ├── 📁 Tema 01 - Introduccion informal/
+                     📁 Tema 01 - Introduccion informal/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Numeros.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Textos.ipynb
+                           ├── 📄 Leccion 3 (Apuntes) - Listas.ipynb
+                           ├── 📄 Leccion 4 (Apuntes) - Lectura por teclado.ipynb
+                           └── 📄 Leccion 5 (Apuntes) - Primeros pasos.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Numeros.ipynb
+                        ├── 📄 Leccion 2 - Textos.ipynb
+                        ├── 📄 Leccion 3 - Listas.ipynb
+                        ├── 📄 Leccion 4 - Lectura por teclado.ipynb
+                        └── 📄 Leccion 5 - Primeros pasos.ipynb
+                     ├── 📁 Tema 02 - Operadores y expresiones/
+                     📁 Tema 02 - Operadores y expresiones/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - El tipo logico.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Operadores relacionales.ipynb
+                           ├── 📄 Leccion 3 (Apuntes) - Operadores logicos.ipynb
+                           ├── 📄 Leccion 4 (Apuntes) - Expresiones anidadas.ipynb
+                           └── 📄 Leccion 5 (Apuntes) - Operadores de asignacion.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - El tipo logico.ipynb
+                        ├── 📄 Leccion 2 - Operadores relacionales.ipynb
+                        ├── 📄 Leccion 3 - Operadores logicos.ipynb
+                        ├── 📄 Leccion 4 - Expresiones anidadas.ipynb
+                        └── 📄 Leccion 5 - Operadores de asignacion.ipynb
+                     └── 📁 Tema 03 - Controlando el flujo/
+                     📁 Tema 03 - Controlando el flujo/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Sentencia If.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Sentencia While.ipynb
+                           ├── 📄 Leccion 3 (Apuntes) - Sentencia For.ipynb
+                           └── 📄 Leccion 4 (Apuntes) - Post analisis.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Sentencia If.ipynb
+                        ├── 📄 Leccion 2 - Sentencia While.ipynb
+                        ├── 📄 Leccion 3 - Sentencia For.ipynb
+                        └── 📄 Leccion 4 - Post analisis.ipynb
+                  ├── 📁 Fase 2 - Manejo de datos y optimizacion/
+                  📁 Fase 2 - Manejo de datos y optimizacion/
+                     ├── 📁 Tema 04 - Colecciones de datos/
+                     📁 Tema 04 - Colecciones de datos/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Tuplas.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Conjuntos.ipynb
+                           ├── 📄 Leccion 3 (Apuntes) - Diccionarios.ipynb
+                           └── 📄 Leccion 4 (Apuntes) - Pilas y colas con listas.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Tuplas.ipynb
+                        ├── 📄 Leccion 2 - Conjuntos.ipynb
+                        ├── 📄 Leccion 3 - Diccionarios.ipynb
+                        └── 📄 Leccion 4 - Pilas y colas con listas.ipynb
+                     ├── 📁 Tema 05 - Entradas y salidas de datos/
+                     📁 Tema 05 - Entradas y salidas de datos/
+                        ├── 📁 .ipynb_checkpoints/
+                        📁 .ipynb_checkpoints/
+                           └── 📄 Lección 1 - Entradas-checkpoint.ipynb
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Entradas.ipynb
+                           └── 📄 Leccion 3 (Apuntes) - Salidas.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Entradas.ipynb
+                        └── 📄 Leccion 3 - Salidas.ipynb
+                     ├── 📁 Tema 06 - Programacion de funciones/
+                     📁 Tema 06 - Programacion de funciones/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Definicion de funciones.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Retorno de valores.ipynb
+                           ├── 📄 Leccion 3 (Apuntes) - Envio de valores.ipynb
+                           ├── 📄 Leccion 4 (Apuntes) - Argumentos y parametros.ipynb
+                           ├── 📄 Leccion 5 (Apuntes) - Argumentos por valor y referencia.ipynb
+                           ├── 📄 Leccion 6 (Apuntes) - Argumentos y parametros indeterminados.ipynb
+                           ├── 📄 Leccion 7 (Apuntes) - Funciones recursivas.ipynb
+                           └── 📄 Leccion 8 (Apuntes) - Funciones integradas.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Definicion de funciones.ipynb
+                        ├── 📄 Leccion 2 - Retorno de valores.ipynb
+                        ├── 📄 Leccion 3 - Envio de valores.ipynb
+                        ├── 📄 Leccion 4 - Argumentos y parametros.ipynb
+                        ├── 📄 Leccion 5 - Argumentos por valor y referencia.ipynb
+                        ├── 📄 Leccion 6 - Argumentos y parametros indeterminados.ipynb
+                        ├── 📄 Leccion 7 - Funciones recursivas.ipynb
+                        └── 📄 Leccion 8 - Funciones integradas.ipynb
+                     └── 📁 Tema 07 - Gestion de errores/
+                     📁 Tema 07 - Gestion de errores/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Errores.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Excepciones.ipynb
+                           ├── 📄 Leccion 3 (Apuntes) - Excepciones multiples.ipynb
+                           └── 📄 Leccion 4 (Apuntes) - Invocacion de excepciones.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Errores.ipynb
+                        ├── 📄 Leccion 2 - Excepciones.ipynb
+                        ├── 📄 Leccion 3 - Excepciones multiples.ipynb
+                        └── 📄 Leccion 4 - Invocacion de excepciones.ipynb
+                  ├── 📁 Fase 3 - Programacion Orientada a Objetos/
+                  📁 Fase 3 - Programacion Orientada a Objetos/
+                     ├── 📁 Tema 08 - Programacion Orientada a Objetos/
+                     📁 Tema 08 - Programacion Orientada a Objetos/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Programacion estructurada vs POO.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Clases y objetos.ipynb
+                           ├── 📄 Leccion 3 (Apuntes) - Atributos y metodos de clase.ipynb
+                           ├── 📄 Leccion 4 (Apuntes) - Metodos especiales de clase.ipynb
+                           ├── 📄 Leccion 5 (Apuntes) - Objetos dentro de objetos.ipynb
+                           └── 📄 Leccion 6 (Apuntes) - Encapsulacion de atributos y metodos.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Programacion estructurada vs POO.ipynb
+                        ├── 📄 Leccion 2 - Clases y objetos.ipynb
+                        ├── 📄 Leccion 3 - Atributos y metodos de clase.ipynb
+                        ├── 📄 Leccion 4 - Metodos especiales de clase.ipynb
+                        ├── 📄 Leccion 5 - Objetos dentro de objetos.ipynb
+                        └── 📄 Leccion 6 - Encapsulacion de atributos y metodos.ipynb
+                     ├── 📁 Tema 09 - Herencia en la POO/
+                     📁 Tema 09 - Herencia en la POO/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Herencia.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Clases heredadas y polimorfismo.ipynb
+                           └── 📄 Leccion 3 (Apuntes) - Herencia múltiple.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Herencia.ipynb
+                        ├── 📄 Leccion 2 - Clases heredadas y polimorfismo.ipynb
+                        └── 📄 Leccion 3 - Herencia múltiple.ipynb
+                     └── 📁 Tema 10 - Metodos de las colecciones/
+                     📁 Tema 10 - Metodos de las colecciones/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 1 (Apuntes) - Cadenas.ipynb
+                           ├── 📄 Leccion 2 (Apuntes) - Listas.ipynb
+                           ├── 📄 Leccion 3 (Apuntes) - Conjuntos.ipynb
+                           └── 📄 Leccion 4 (Apuntes) - Diccionarios.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 1 - Cadenas.ipynb
+                        ├── 📄 Leccion 2 - Listas.ipynb
+                        ├── 📄 Leccion 3 - Conjuntos.ipynb
+                        └── 📄 Leccion 4 - Diccionarios.ipynb
+                  └── 📁 Fase 4 - Temas avanzados/
+                  📁 Fase 4 - Temas avanzados/
+                     ├── 📁 Tema 11 - Modulos/
+                     📁 Tema 11 - Modulos/
+                        ├── 📁 .ipynb_checkpoints/
+                        📁 .ipynb_checkpoints/
+                           ├── 📄 Lección 05 - Datetime-checkpoint.ipynb
+                           ├── 📄 Lección 06 - Math-checkpoint.ipynb
+                           └── 📄 Lección 07 - Random-checkpoint.ipynb
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📁 Leccion 01 (Apuntes) - Modulos/
+                           📁 Leccion 01 (Apuntes) - Modulos/
+                              ├── 📁 test/
+                              📁 test/
+                                 └── 💻 script.py
+                              ├── 💻 hola.py
+                              └── 💻 script.py
+                           ├── 📁 Leccion 02 (Apuntes) - Paquetes/
+                           📁 Leccion 02 (Apuntes) - Paquetes/
+                              ├── 📁 dist/
+                              📁 dist/
+                                 └── 📦 paquete-0.1.zip
+                              ├── 📁 otra/
+                              📁 otra/
+                                 └── 📁 carpeta/
+                                 📁 carpeta/
+                                    └── 💻 script.py
+                              ├── 📁 paquete/
+                              📁 paquete/
+                                 ├── 📁 __pycache__/
+                                 📁 __pycache__/
+                                    ├── 📄 __init__.cpython-35.pyc
+                                    └── 📄 saludos.cpython-35.pyc
+                                 ├── 📁 adios/
+                                 📁 adios/
+                                    ├── 📁 __pycache__/
+                                    📁 __pycache__/
+                                       ├── 📄 __init__.cpython-35.pyc
+                                       └── 📄 despedidas.cpython-35.pyc
+                                    ├── 💻 __init__.py
+                                    └── 💻 despedidas.py
+                                 ├── 📁 hola/
+                                 📁 hola/
+                                    ├── 📁 __pycache__/
+                                    📁 __pycache__/
+                                       ├── 📄 __init__.cpython-35.pyc
+                                       └── 📄 saludos.cpython-35.pyc
+                                    ├── 💻 __init__.py
+                                    └── 💻 saludos.py
+                                 ├── 💻 __init__.py
+                                 ├── 💻 saludos.py
+                                 └── 💻 setup.py
+                              ├── 📁 Paquete.egg-info/
+                              📁 Paquete.egg-info/
+                                 ├── 📝 dependency_links.txt
+                                 ├── 📄 PKG-INFO
+                                 ├── 📝 SOURCES.txt
+                                 └── 📝 top_level.txt
+                              ├── 💻 script.py
+                              └── 💻 setup.py
+                           ├── 📄 Leccion 04 (Apuntes) - Collections.ipynb
+                           ├── 📄 Leccion 05 (Apuntes) - Datetime.ipynb
+                           ├── 📄 Leccion 06 (Apuntes) - Math.ipynb
+                           └── 📄 Leccion 07 (Apuntes) - Random.ipynb
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📁 Leccion 01 - Modulos/
+                        📁 Leccion 01 - Modulos/
+                        ├── 📁 Leccion 02 - Paquetes/
+                        📁 Leccion 02 - Paquetes/
+                        ├── 📄 Leccion 04 - Collections.ipynb
+                        ├── 📄 Leccion 05 - Datetime.ipynb
+                        ├── 📄 Leccion 06 - Math.ipynb
+                        └── 📄 Leccion 07 - Random.ipynb
+                     ├── 📁 Tema 12 - Manejo de ficheros/
+                     📁 Tema 12 - Manejo de ficheros/
+                        ├── 📁 .ipynb_checkpoints/
+                        📁 .ipynb_checkpoints/
+                           ├── 📄 Lección 02 - Ficheros de texto-checkpoint.ipynb
+                           ├── 📄 Lección 03 - Ficheros y objetos con Pickle-checkpoint.ipynb
+                           ├── 📄 Lección 03 - Registro simple con fichero texto-checkpoint.ipynb
+                           └── 📄 Lección 04 - Catálogo de películas persistente-checkpoint.ipynb
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 catalogo.pckl
+                           ├── 📝 catalogo.txt
+                           ├── 📝 fichero.txt
+                           ├── 📝 fichero2.txt
+                           ├── 📝 fichero_inventado.txt
+                           ├── 📄 Leccion 02 (Apuntes) - Ficheros de texto.ipynb
+                           ├── 📄 Leccion 03 (Apuntes) - Ficheros y objetos con Pickle.ipynb
+                           ├── 📄 Leccion 04 (Apuntes) - Catalogo de peliculas persistente.ipynb
+                           ├── 📄 lista.pckl
+                           └── 📄 personas.pckl
+                        ├── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           └── 📄 Soluciones.ipynb
+                        ├── 📄 Leccion 02 - Ficheros de texto.ipynb
+                        ├── 📄 Leccion 03 - Ficheros y objetos con Pickle.ipynb
+                        └── 📄 Leccion 04 - Catalogo de peliculas persistente.ipynb
+                     ├── 📁 Tema 13 - Interfaces graficas con tkinter/
+                     📁 Tema 13 - Interfaces graficas con tkinter/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 💻 button.py
+                           ├── 💻 checkbutton.py
+                           ├── 💻 editor.py
+                           ├── 💻 entry.py
+                           ├── 💻 frame.py
+                           ├── 📄 hola.ico
+                           ├── 🖼️ imagen.gif
+                           ├── 💻 label.py
+                           ├── 💻 menu.py
+                           ├── 📝 p3.txt
+                           ├── 💻 popups.py
+                           ├── 📝 prueba 2.txt
+                           ├── 📝 prueba.txt
+                           ├── 📝 prueba3.txt
+                           ├── 💻 radiobuttons.py
+                           ├── 💻 test.py
+                           ├── 📝 test.txt
+                           ├── 📝 test2.txt
+                           ├── 💻 text.py
+                           └── 💻 tk.py
+                        ├── 📄 hola.ico
+                        └── 🖼️ imagen.gif
+                     ├── 📁 Tema 14 - Bases de datos con SQLite/
+                     📁 Tema 14 - Bases de datos con SQLite/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📄 Leccion 01 (Apuntes) - Conexion, puntero y consultas basicas.ipynb
+                           ├── 📄 Leccion 02 (Apuntes) - Claves primarias, campos autoincrementales y claves unicas.ipynb
+                           └── 📄 Leccion 03 (Apuntes) - Consultas, modificacion y borrado registros.ipynb
+                        └── 📁 Ejercicios/
+                        📁 Ejercicios/
+                           ├── 📄 Enunciados.ipynb
+                           ├── 🖼️ menu.png
+                           ├── 💻 menu_final.py
+                           ├── 📄 restaurante_final.db
+                           └── 💻 restaurante_final.py
+                     ├── 📁 Tema 15 - Funcionalidades avanzadas/
+                     📁 Tema 15 - Funcionalidades avanzadas/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📁 img/
+                           📁 img/
+                              └── 🖼️ figura_1.png
+                           ├── 📄 Leccion 01 (Apuntes) - Operadores encadenados.ipynb
+                           ├── 📄 Leccion 02 (Apuntes) - Comprensión de listas.ipynb
+                           ├── 📄 Leccion 03 (Apuntes) - Funciones decoradoras.ipynb
+                           ├── 📄 Leccion 04 (Apuntes) - Funciones generadoras e iteradores.ipynb
+                           ├── 📄 Leccion 05 (Apuntes) - Funciones lambda.ipynb
+                           ├── 📄 Leccion 06 (Apuntes) - Funcion filter.ipynb
+                           ├── 📄 Leccion 07 (Apuntes) - Funcion map.ipynb
+                           └── 📄 Leccion 08 (Apuntes) - Expresiones regulares.ipynb
+                        ├── 📄 Leccion 01 - Operadores encadenados.ipynb
+                        ├── 📄 Leccion 02 - Comprensión de listas.ipynb
+                        ├── 📄 Leccion 03 - Funciones decoradoras.ipynb
+                        ├── 📄 Leccion 04 - Funciones generadoras e iteradores.ipynb
+                        ├── 📄 Leccion 05 - Funciones lambda.ipynb
+                        ├── 📄 Leccion 06 - Funcion filter.ipynb
+                        ├── 📄 Leccion 07 - Funcion map.ipynb
+                        └── 📄 Leccion 08 - Expresiones regulares.ipynb
+                     ├── 📁 Tema 16 - Documentacion y pruebas/
+                     📁 Tema 16 - Documentacion y pruebas/
+                        ├── 📁 Apuntes/
+                        📁 Apuntes/
+                           ├── 📁 img/
+                           📁 img/
+                              └── 🖼️ errores.png
+                           ├── 📁 mi_paquete/
+                           📁 mi_paquete/
+                              ├── 📁 __pycache__/
+                              📁 __pycache__/
+                                 └── 📄 __init__.cpython-35.pyc
+                              ├── 📁 adios/
+                              📁 adios/
+                                 ├── 💻 __init__.py
+                                 └── 💻 despedidas.py
+                              ├── 📁 hola/
+                              📁 hola/
+                                 ├── 💻 __init__.py
+                                 └── 💻 saludos.py
+                              └── 💻 __init__.py
+                           ├── 📄 Leccion 01 (Apuntes) - Docstrings.ipynb
+                           ├── 📄 Leccion 02 (Apuntes) - Pydoc.ipynb
+                           ├── 📄 Leccion 03 (Apuntes) - Doctest.ipynb
+                           ├── 📄 Leccion 04 (Apuntes) - Unittest.ipynb
+                           └── 💻 mi_modulo.py
+                        ├── 📁 mi_paquete/
+                        📁 mi_paquete/
+                           ├── 📁 __pycache__/
+                           📁 __pycache__/
+                              └── 📄 __init__.cpython-35.pyc
+                           ├── 📁 adios/
+                           📁 adios/
+                              ├── 📁 __pycache__/
+                              📁 __pycache__/
+                                 ├── 📄 __init__.cpython-35.pyc
+                                 └── 📄 despedidas.cpython-35.pyc
+                              ├── 💻 __init__.py
+                              └── 💻 despedidas.py
+                           ├── 📁 hola/
+                           📁 hola/
+                              ├── 📁 __pycache__/
+                              📁 __pycache__/
+                                 ├── 📄 __init__.cpython-35.pyc
+                                 └── 📄 saludos.cpython-35.pyc
+                              ├── 💻 __init__.py
+                              └── 💻 saludos.py
+                           └── 💻 __init__.py
+                        ├── 📄 Leccion 01 - Docstrings.ipynb
+                        └── 💻 mi_modulo.py
+                     └── 📁 Tema 17 - Distribucion/
+                     📁 Tema 17 - Distribucion/
+                        ├── 📄 Leccion 01 (Apuntes) - Setuptools.ipynb
+                        └── 📄 Leccion 02 (Apuntes) - Pyinstaller.ipynb
+            ├── 📦 CursoPython-Final.zip
+            └── 📦 CursoPython-Solo-Ejercicios.zip
+      ├── 🎬 003 Previa.mp4
+      ├── 💻 004 Descarga de los recursos y ejercicios.html
+      ├── 🎬 005 Preparando entorno en Windows.mp4
+      ├── 🎬 006 Preparando entorno en Linux.mp4
+      ├── 💻 007 Preparando entorno en Mac OS X.html
+      ├── 💻 008 Información importante sobre Jupyter Notebook.html
+      └── 🎬 009 4 nociones sobre Jupyter.mp4
+   ├── 📁 03 Introducción informal/
+   📁 03 Introducción informal/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 001 Quiz de la sección.html
+      ├── 🎬 010 Previa.mp4
+      ├── 🎬 011 Números.mp4
+      ├── 🎬 012 Textos.mp4
+      ├── 🎬 013 Índices y slicing.mp4
+      ├── 🎬 014 Listas.mp4
+      ├── 🎬 015 Lectura por teclado.mp4
+      ├── 🎬 016 Primeros pasos.mp4
+      └── 🎬 017 Ejercicios optativos - Soluciones paso a paso.mp4
+   ├── 📁 04 Operadores y expresiones/
+   📁 04 Operadores y expresiones/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 002 Quiz de la sección.html
+      ├── 🎬 018 Previa.mp4
+      ├── 🎬 019 El tipo lógico.mp4
+      ├── 🎬 020 Operadores relacionales.mp4
+      ├── 🎬 021 Operadores lógicos.mp4
+      ├── 🎬 022 Expresiones anidadas.mp4
+      ├── 🎬 023 Operadores de asignación.mp4
+      └── 🎬 024 Ejercicios optativos - Soluciones paso a paso.mp4
+   ├── 📁 05 Controlando el flujo/
+   📁 05 Controlando el flujo/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 003 Quiz de la sección.html
+      ├── 🎬 025 Previa.mp4
+      ├── 🎬 026 Sentencia If.mp4
+      ├── 🎬 027 Sentencia While.mp4
+      ├── 🎬 028 Sentencia For.mp4
+      ├── 🎬 029 Post Análisis.mp4
+      ├── 🎬 030 Ejercicios optativos - Soluciones paso a paso 1 al 3.mp4
+      └── 🎬 031 Ejercicios optativos - Soluciones paso a paso 4 al 7.mp4
+   ├── 📁 053 Ejercicios optativos - Soluciones paso a paso/
+   📁 053 Ejercicios optativos - Soluciones paso a paso/
+      └── 💻 prueba1.py
+   ├── 📁 06 Colecciones de datos/
+   📁 06 Colecciones de datos/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 004 Quiz de la sección.html
+      ├── 🎬 032 Previa.mp4
+      ├── 🎬 033 Tuplas.mp4
+      ├── 🎬 034 Conjuntos.mp4
+      ├── 🎬 035 Diccionarios.mp4
+      ├── 🎬 036 Pilas y colas con listas.mp4
+      └── 🎬 037 Ejercicios optativos - Soluciones paso a paso.mp4
+   ├── 📁 07 Entradas y salidas de datos/
+   📁 07 Entradas y salidas de datos/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 005 Quiz de la sección.html
+      ├── 🎬 038 Previa.mp4
+      ├── 🎬 039 Entradas.mp4
+      ├── 🎬 040 Scripts.mp4
+      ├── 🎬 041 Salidas.mp4
+      ├── 🎬 042 Ejercicios optativos - Soluciones paso a paso 1 y 2.mp4
+      └── 🎬 043 Ejercicios optativos - Soluciones paso a paso 3.mp4
+   ├── 📁 08 Programación de funciones/
+   📁 08 Programación de funciones/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 006 Quiz de la sección.html
+      ├── 🎬 044 Previa.mp4
+      ├── 🎬 045 Definición de funciones.mp4
+      ├── 🎬 046 Retorno de valores.mp4
+      ├── 🎬 047 Enviando valores.mp4
+      ├── 🎬 048 Argumentos y parámetros.mp4
+      ├── 🎬 049 Argumentos por valor y referencia.mp4
+      ├── 🎬 050 Argumentos indeterminados.mp4
+      ├── 🎬 051 Funciones recursivas.mp4
+      ├── 🎬 052 Funciones integradas.mp4
+      └── 🎬 053 Ejercicios optativos - Soluciones paso a paso.mp4
+   ├── 📁 09 Manejo de excepciones/
+   📁 09 Manejo de excepciones/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 007 Quiz de la sección.html
+      ├── 🎬 054 Previa.mp4
+      ├── 🎬 055 Errores.mp4
+      ├── 🎬 056 Excepciones.mp4
+      ├── 🎬 057 Múltiples excepciones.mp4
+      ├── 🎬 058 Invocación de excepciones.mp4
+      └── 🎬 059 Ejercicios optativos - Soluciones paso a paso.mp4
+   ├── 📁 10 Clases y objetos/
+   📁 10 Clases y objetos/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 008 Quiz de la sección.html
+      ├── 🎬 060 Previa.mp4
+      ├── 🎬 061 Programación estructurada vs POO.mp4
+      ├── 🎬 062 Clases y objetos.mp4
+      ├── 🎬 063 Atributos y métodos de clase.mp4
+      ├── 🎬 064 Métodos especiales.mp4
+      ├── 🎬 065 Objetos dentro de objetos.mp4
+      ├── 🎬 066 Encapsulación de atributos y métodos.mp4
+      └── 🎬 067 Ejercicios optativos - Soluciones paso a paso.mp4
+   ├── 📁 11 Herencia/
+   📁 11 Herencia/
+      ├── 📁 quizzes/
+      📁 quizzes/
+         └── 💻 009 Quiz de la sección.html
+      ├── 🎬 068 Previa.mp4
+      ├── 🎬 069 Herencia.mp4
+      ├── 🎬 070 Clases heredadas y polimorfismo.mp4
+      ├── 🎬 071 Herencia múltiple.mp4
+      └── 🎬 072 Ejercicios optativos - Soluciones paso a paso.mp4
+   ├── 📁 12 Métodos de las colecciones/
+   📁 12 Métodos de las colecciones/
+      ├── 🎬 073 Previa.mp4
+      ├── 🎬 074 Cadenas.mp4
+      ├── 🎬 075 Listas.mp4
+      ├── 🎬 076 Conjuntos.mp4
+      ├── 🎬 077 Diccionarios.mp4
+      └── 🎬 078 Ejercicios optativos - Soluciones paso a paso.mp4
+   ├── 📁 13 Módulos y paquetes/
+   📁 13 Módulos y paquetes/
+      ├── 🎬 079 Previa.mp4
+      ├── 🎬 080 Módulos.mp4
+      ├── 🎬 081 Paquetes.mp4
+      ├── 🎬 082 Distribución básica.mp4
+      ├── 🎬 083 Módulos estándar.mp4
+      ├── 🎬 084 Collections.mp4
+      ├── 🎬 085 Datetime.mp4
+      ├── 🎬 086 Math.mp4
+      ├── 🎬 087 Random.mp4
+      ├── 🎬 088 Ejercicios optativos - Soluciones paso a paso 1 y 2.mp4
+      └── 🎬 089 Ejercicios optativos - Soluciones paso a paso 3.mp4
+   ├── 📁 14 Manejo de ficheros/
+   📁 14 Manejo de ficheros/
+      ├── 🎬 092 Ficheros de texto.mp4
+      ├── 🎬 093 Manejo del puntero.mp4
+      ├── 🎬 094 Ficheros y objetos con Pickle.mp4
+      ├── 🎬 095 Catálogo de películas persistente.mp4
+      ├── 🎬 096 Ejercicios optativos - Soluciones paso a paso 1 y 2.mp4
+      └── 🎬 097 Ejercicios optativos - Soluciones paso a paso 3.mp4
+   ├── 📁 15 Interfaces gráficas con Tkinter/
+   📁 15 Interfaces gráficas con Tkinter/
+      ├── 🎬 098 Previa.mp4
+      ├── 🎬 099 Tkinter y los widgets.mp4
+      ├── 🎬 100 Tk Raíz.mp4
+      ├── 🎬 101 Frames Marcos.mp4
+      ├── 🎬 102 Labels Etiquetas.mp4
+      ├── 🎬 103 Entry Campos de texto.mp4
+      ├── 🎬 104 Text Textos largos.mp4
+      ├── 🎬 105 Buttons Botones.mp4
+      ├── 🎬 106 Radiobuttons Botones radiales.mp4
+      ├── 🎬 107 Checkbuttons Botones seleccionables.mp4
+      ├── 🎬 108 Menus Menús.mp4
+      ├── 🎬 109 Popups Ventanas emergentes.mp4
+      ├── 🎬 110 Popups avanzados.mp4
+      ├── 🎬 111 Proyecto Editor de texto con Ficheros I.mp4
+      ├── 🎬 112 Proyecto Editor de texto con Ficheros II.mp4
+      └── 🎬 113 Proyecto Editor de texto con Ficheros III.mp4
+   ├── 📁 16 Bases de datos con SQLite/
+   📁 16 Bases de datos con SQLite/
+      ├── 🎬 114 Previa.mp4
+      ├── 🎬 115 Conexion puntero y consultas básicas.mp4
+      ├── 🎬 116 Claves primarias campos autoincrementales y claves únicas.mp4
+      ├── 🎬 117 Consultas modificación y borrado registros.mp4
+      ├── 🎬 118 Ejercicios optativos - Soluciones paso a paso 1.mp4
+      └── 🎬 119 Ejercicios optativos - Soluciones paso a paso 2.mp4
+   ├── 📁 17 Funcionalidades avanzadas/
+   📁 17 Funcionalidades avanzadas/
+      ├── 🎬 120 Operadores encadenados.mp4
+      ├── 🎬 121 Comprensión de listas.mp4
+      ├── 🎬 122 Funciones decoradoras I.mp4
+      ├── 🎬 123 Funciones decoradoras II.mp4
+      ├── 🎬 124 Funciones generadoras e iteradores.mp4
+      ├── 🎬 125 Funciones lambda.mp4
+      ├── 🎬 126 Función filter.mp4
+      ├── 🎬 127 Función map.mp4
+      ├── 🎬 128 Expresiones regulares I.mp4
+      ├── 🎬 129 Expresiones regulares II.mp4
+      └── 🎬 130 Expresiones regulares III.mp4
+   ├── 📁 18 Documentación y pruebas/
+   📁 18 Documentación y pruebas/
+      ├── 🎬 131 Docstrings.mp4
+      ├── 🎬 132 Pydoc.mp4
+      ├── 🎬 133 Doctest I.mp4
+      ├── 🎬 134 Doctest II.mp4
+      ├── 🎬 135 Unittest I.mp4
+      └── 🎬 136 Unittest II.mp4
+   ├── 📁 19 Distribución/
+   📁 19 Distribución/
+      ├── 💻 137 Setuptools.html
+      └── 💻 138 Pyinstaller.html
+   ├── 📁 20 Anexos/
+   📁 20 Anexos/
+      ├── 💻 139 Breve historia sobre Python.html
+      ├── 💻 140 El Zen de Python.html
+      ├── 💻 141 PEP 8 Guía de estilo para Python.html
+      └── 💻 142 Python 3.6 Format simplificado.html
+   ├── 📁 21 Bonus/
+   📁 21 Bonus/
+      └── 💻 143 Extra Super Ofertas para estudiantes.html
+   ├── 📁 pelisalacarta/
+   📁 pelisalacarta/
+      ├── 📁 core/
+      📁 core/
+         ├── 📁 __pycache__/
+         📁 __pycache__/
+            ├── 📄 __init__.cpython-35.pyc
+            └── 📄 __init__.cpython-36.pyc
+         ├── 📁 ClientCookie/
+         📁 ClientCookie/
+            ├── 💻 __init__.py
+            ├── 💻 _BSDDBCookieJar.py
+            ├── 💻 _ClientCookie.py
+            ├── 💻 _ConnCache.py
+            ├── 💻 _Debug.py
+            ├── 💻 _HeadersUtil.py
+            ├── 💻 _LWPCookieJar.py
+            ├── 💻 _MozillaCookieJar.py
+            ├── 💻 _MSIECookieJar.py
+            ├── 💻 _MSIEDBCookieJar.py
+            ├── 💻 _Opener.py
+            ├── 💻 _Request.py
+            ├── 💻 _urllib2_support.py
+            ├── 💻 _Util.py
+            └── 📄 COPYING
+         ├── 💻 __init__.py
+         ├── 💻 buscador.py
+         ├── 💻 config.py
+         ├── 💻 configuracion.py
+         ├── 💻 DecryptPYTelebision.py
+         ├── 💻 DecryptYonkis.py
+         ├── 💻 descargados.py
+         ├── 💻 descargadoslist.py
+         ├── 💻 downloadtools.py
+         ├── 💻 favoritos.py
+         ├── 💻 item.py
+         ├── 💻 library.py
+         ├── 💻 logger.py
+         ├── 💻 nmb.py
+         ├── 💻 samba.py
+         ├── 💻 scrapertools.py
+         ├── 💻 smb.py
+         ├── 💻 unpackerjs.py
+         ├── 💻 unpackerjs2.py
+         ├── 💻 updater.py
+         ├── 💻 xbmctools.py
+         └── 💻 ziptools.py
+      ├── 📁 lib/
+      📁 lib/
+         ├── 📁 atom/
+         📁 atom/
+            ├── 💻 __init__.py
+            ├── 💻 auth.py
+            ├── 💻 client.py
+            ├── 💻 core.py
+            ├── 💻 http.py
+            ├── 💻 http_core.py
+            ├── 💻 http_interface.py
+            ├── 💻 mock_http.py
+            ├── 💻 mock_http_core.py
+            ├── 💻 mock_service.py
+            ├── 💻 service.py
+            ├── 💻 token_store.py
+            └── 💻 url.py
+         ├── 📁 cerealizer/
+         📁 cerealizer/
+            └── 💻 __init__.py
+         ├── 📁 elementtree/
+         📁 elementtree/
+            ├── 💻 __init__.py
+            ├── 💻 ElementInclude.py
+            ├── 💻 ElementPath.py
+            ├── 💻 ElementTree.py
+            ├── 💻 HTMLTreeBuilder.py
+            ├── 💻 SgmlopXMLTreeBuilder.py
+            ├── 💻 SimpleXMLTreeBuilder.py
+            ├── 💻 SimpleXMLWriter.py
+            ├── 💻 TidyHTMLTreeBuilder.py
+            ├── 💻 TidyTools.py
+            └── 💻 XMLTreeBuilder.py
+         ├── 📁 gdata/
+         📁 gdata/
+            ├── 📁 exif/
+            📁 exif/
+               └── 💻 __init__.py
+            ├── 📁 geo/
+            📁 geo/
+               └── 💻 __init__.py
+            ├── 📁 media/
+            📁 media/
+               └── 💻 __init__.py
+            ├── 📁 oauth/
+            📁 oauth/
+               ├── 💻 __init__.py
+               ├── 📝 CHANGES.txt
+               └── 💻 rsa.py
+            ├── 📁 tlslite/
+            📁 tlslite/
+               ├── 📁 integration/
+               📁 integration/
+                  ├── 💻 __init__.py
+                  ├── 💻 AsyncStateMachine.py
+                  ├── 💻 ClientHelper.py
+                  ├── 💻 HTTPTLSConnection.py
+                  ├── 💻 IMAP4_TLS.py
+                  ├── 💻 IntegrationHelper.py
+                  ├── 💻 POP3_TLS.py
+                  ├── 💻 SMTP_TLS.py
+                  ├── 💻 TLSAsyncDispatcherMixIn.py
+                  ├── 💻 TLSSocketServerMixIn.py
+                  ├── 💻 TLSTwistedProtocolWrapper.py
+                  └── 💻 XMLRPCTransport.py
+               ├── 📁 utils/
+               📁 utils/
+                  ├── 💻 __init__.py
+                  ├── 💻 AES.py
+                  ├── 💻 ASN1Parser.py
+                  ├── 💻 cipherfactory.py
+                  ├── 💻 codec.py
+                  ├── 💻 compat.py
+                  ├── 💻 Cryptlib_AES.py
+                  ├── 💻 Cryptlib_RC4.py
+                  ├── 💻 Cryptlib_TripleDES.py
+                  ├── 💻 cryptomath.py
+                  ├── 💻 dateFuncs.py
+                  ├── 📄 entropy.c
+                  ├── 💻 hmac.py
+                  ├── 💻 jython_compat.py
+                  ├── 💻 keyfactory.py
+                  ├── 💻 OpenSSL_AES.py
+                  ├── 💻 OpenSSL_RC4.py
+                  ├── 💻 OpenSSL_RSAKey.py
+                  ├── 💻 OpenSSL_TripleDES.py
+                  ├── 💻 PyCrypto_AES.py
+                  ├── 💻 PyCrypto_RC4.py
+                  ├── 💻 PyCrypto_RSAKey.py
+                  ├── 💻 PyCrypto_TripleDES.py
+                  ├── 💻 Python_AES.py
+                  ├── 💻 Python_RC4.py
+                  ├── 💻 Python_RSAKey.py
+                  ├── 💻 RC4.py
+                  ├── 💻 rijndael.py
+                  ├── 💻 RSAKey.py
+                  ├── 💻 TripleDES.py
+                  ├── 📄 win32prng.c
+                  └── 💻 xmltools.py
+               ├── 💻 __init__.py
+               ├── 💻 api.py
+               ├── 💻 BaseDB.py
+               ├── 💻 Checker.py
+               ├── 💻 constants.py
+               ├── 💻 errors.py
+               ├── 💻 FileObject.py
+               ├── 💻 HandshakeSettings.py
+               ├── 💻 mathtls.py
+               ├── 💻 messages.py
+               ├── 💻 Session.py
+               ├── 💻 SessionCache.py
+               ├── 💻 SharedKeyDB.py
+               ├── 💻 TLSConnection.py
+               ├── 💻 TLSRecordLayer.py
+               ├── 💻 VerifierDB.py
+               ├── 💻 X509.py
+               └── 💻 X509CertChain.py
+            ├── 📁 youtube/
+            📁 youtube/
+               ├── 💻 __init__.py
+               └── 💻 service.py
+            ├── 💻 __init__.py
+            ├── 💻 auth.py
+            ├── 💻 client.py
+            ├── 💻 service.py
+            ├── 💻 test_data.py
+            └── 💻 urlfetch.py
+         └── 💻 __init__.py
+      ├── 📁 platform/
+      📁 platform/
+         ├── 📁 boxee/
+         📁 boxee/
+            ├── 💻 __init__.py
+            ├── 💻 config.py
+            └── 💻 logger.py
+         ├── 📁 developer/
+         📁 developer/
+            ├── 💻 __init__.py
+            ├── 💻 config.py
+            └── 💻 logger.py
+         ├── 📁 plex/
+         📁 plex/
+            └── 💻 __init__.py
+         ├── 📁 wiimc/
+         📁 wiimc/
+            ├── 💻 __init__.py
+            ├── 💻 config.py
+            ├── 💻 launcher.py
+            ├── 💻 logger.py
+            └── 💻 wiitools.py
+         ├── 📁 xbmc/
+         📁 xbmc/
+            ├── 💻 __init__.py
+            ├── 💻 config.py
+            ├── 💻 launcher.py
+            └── 💻 logger.py
+         ├── 📁 xbmcdharma/
+         📁 xbmcdharma/
+            ├── 💻 __init__.py
+            ├── 💻 config.py
+            └── 💻 logger.py
+         └── 💻 __init__.py
+      ├── 📁 resources/
+      📁 resources/
+         ├── 📁 images/
+         📁 images/
+            └── 📁 posters/
+            📁 posters/
+               ├── 📁 adnstream/
+               📁 adnstream/
+                  ├── 🖼️ busqueda.jpg
+                  ├── 🖼️ Destacados.jpg
+                  ├── 🖼️ masvalorados.jpg
+                  ├── 🖼️ masvistos.jpg
+                  └── 🖼️ New.jpg
+               ├── 🖼️ adnstream.png
+               ├── 🖼️ antena3.png
+               ├── 🖼️ argia.png
+               ├── 🖼️ autonomicos.png
+               ├── 🖼️ ayuda.png
+               ├── 🖼️ barcelonatv.png
+               ├── 🖼️ berriatb.png
+               ├── 🖼️ boing.png
+               ├── 🖼️ channelselector.png
+               ├── 🖼️ clantve.png
+               ├── 🖼️ configuracion.png
+               ├── 🖼️ Crystal_Clear_action_db_update.png
+               ├── 🖼️ Crystal_Clear_action_info.png
+               ├── 🖼️ descargados.png
+               ├── 🖼️ earthtv.png
+               ├── 🖼️ eitb.png
+               ├── 🖼️ euronews.png
+               ├── 🖼️ extremaduratv.png
+               ├── 🖼️ favoritos.png
+               ├── 🖼️ giraldatv.png
+               ├── 🖼️ hogarutil.png
+               ├── 🖼️ ib3.png
+               ├── 🖼️ internautastv.png
+               ├── 🖼️ internet.png
+               ├── 🖼️ kideos.png
+               ├── 🖼️ lasexta.png
+               ├── 🖼️ locales.png
+               ├── 🖼️ meristation.png
+               ├── 🖼️ nacionales.png
+               ├── 🖼️ novedades.png
+               ├── 🖼️ plus.png
+               ├── 🖼️ publicotv.png
+               ├── 🖼️ rtva.png
+               ├── 🖼️ rtvc.png
+               ├── 🖼️ rtve.png
+               ├── 🖼️ rtvemediateca.png
+               ├── 🖼️ rtveprogramas.png
+               ├── 🖼️ rtvv.png
+               ├── 🖼️ sieterm.png
+               ├── 🖼️ solidariatv.png
+               ├── 🖼️ tematicos.png
+               ├── 🖼️ terratv.png
+               ├── 🖼️ totlol.png
+               ├── 🖼️ tresmellizas.png
+               ├── 🖼️ turbonick.png
+               ├── 🖼️ tv3.png
+               ├── 🖼️ tva.png
+               ├── 🖼️ tvg.png
+               └── 🖼️ tvmallorca.png
+         ├── 📁 language/
+         📁 language/
+            ├── 📁 English/
+            📁 English/
+               └── 📄 strings.xml
+            ├── 📁 Hungarian/
+            📁 Hungarian/
+               └── 📄 strings.xml
+            └── 📁 Spanish/
+            📁 Spanish/
+               └── 📄 strings.xml
+         ├── 📄 settings.conf
+         └── 📄 settings.xml
+      ├── 📁 servers/
+      📁 servers/
+         ├── 💻 __init__.py
+         ├── 💻 bliptv.py
+         ├── 💻 cinshare.py
+         ├── 💻 divxden.py
+         ├── 💻 divxlink.py
+         ├── 💻 gigabyteupload.py
+         ├── 💻 linkbucks.py
+         ├── 💻 megaupload.py
+         ├── 💻 megavideo.py
+         ├── 💻 metadivx.py
+         ├── 💻 movshare.py
+         ├── 💻 servertools.py
+         ├── 💻 stagevu.py
+         ├── 💻 trailertools.py
+         ├── 💻 tutv.py
+         ├── 💻 veoh.py
+         ├── 💻 videoweed.py
+         ├── 💻 vreel.py
+         ├── 💻 wuapi.py
+         ├── 💻 youtube.py
+         └── 💻 zshare.py
+      ├── 📁 tvalacarta/
+      📁 tvalacarta/
+         ├── 📁 channels/
+         📁 channels/
+            ├── 💻 __init__.py
+            ├── 💻 adnstream.py
+            ├── 💻 antena3.py
+            ├── 💻 argia.py
+            ├── 💻 barcelonatv.py
+            ├── 💻 berriatb.py
+            ├── 💻 boing.py
+            ├── 📄 boing.xml
+            ├── 💻 clantve.py
+            ├── 📄 clantve.xml
+            ├── 💻 earthtv.py
+            ├── 💻 eitb.py
+            ├── 💻 euronews.py
+            ├── 💻 extremaduratv.py
+            ├── 💻 giraldatv.py
+            ├── 💻 hogarutil.py
+            ├── 💻 ib3.py
+            ├── 💻 internautastv.py
+            ├── 💻 kideos.py
+            ├── 💻 lasexta.py
+            ├── 📄 lasexta.xml
+            ├── 💻 meristation.py
+            ├── 💻 plus.py
+            ├── 💻 publicotv.py
+            ├── 💻 rtva.py
+            ├── 💻 rtvc.py
+            ├── 💻 rtve.py
+            ├── 📄 rtve.xml
+            ├── 💻 rtvemediateca.py
+            ├── 💻 rtveprogramas.py
+            ├── 💻 rtvv.py
+            ├── 💻 sieterm.py
+            ├── 💻 solidariatv.py
+            ├── 💻 terratv.py
+            ├── 💻 totlol.py
+            ├── 💻 totlolold.py
+            ├── 💻 tresmellizas.py
+            ├── 💻 turbonick-new.py
+            ├── 💻 turbonick.py
+            ├── 💻 tv3.py
+            ├── 💻 tva.py
+            ├── 💻 tvg.py
+            └── 💻 tvmallorca.py
+         └── 💻 __init__.py
+      ├── 💻 __init__.py
+      ├── 📄 addon.xml
+      ├── 💻 channelselector.py
+      ├── 📄 channelselector.xml
+      ├── 💻 default.py
+      ├── 📝 LICENSE.txt
+      ├── 📝 readme.txt
+      ├── 💻 tester.py
+      ├── 💻 tvalacarta.py
+      └── 📄 version.xml
+   ├── 📄 04 Operadores y expresiones.mp4.xspf
+   ├── 💻 holamundo.py
+   └── 💻 prueba.py

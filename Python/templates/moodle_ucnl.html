@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exportador de cursos UCNL</title>
+  <style>
+    :root { color-scheme: light; font-family: "Segoe UI", sans-serif; background: #f3f6fb; color: #17243b; }
+    body { margin: 0; padding: 32px 16px; }
+    main { max-width: 760px; margin: 0 auto; }
+    .card { background: white; border-radius: 16px; padding: 30px; box-shadow: 0 12px 36px #18315312; }
+    h1 { margin: 0 0 8px; color: #12386a; }
+    p { line-height: 1.6; }
+    label { display: block; font-weight: 600; margin: 18px 0 6px; }
+    input { width: 100%; box-sizing: border-box; border: 1px solid #cbd5e1; border-radius: 8px; padding: 12px; font: inherit; }
+    button { border: 0; border-radius: 8px; background: #1458a6; color: white; padding: 12px 18px; font: inherit; font-weight: 600; cursor: pointer; }
+    button:hover { background: #0e427f; }
+    .secondary { background: #596579; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
+    .notice { border-radius: 8px; padding: 12px 14px; margin: 12px 0; }
+    .error { background: #fee2e2; color: #8f1d1d; }
+    .success { background: #dcfce7; color: #14532d; }
+    .warning { background: #fef3c7; color: #713f12; }
+    .privacy { color: #52627a; font-size: .93rem; }
+    .progress-panel { margin-top: 24px; padding: 18px; border: 1px solid #d8e1ee; border-radius: 10px; }
+    .progress-panel[hidden] { display: none; }
+    progress { width: 100%; height: 18px; accent-color: #1458a6; }
+    .progress-detail { overflow-wrap: anywhere; color: #52627a; font-size: .93rem; }
+    li { margin: 8px 0; }
+    @media (max-width: 520px) { .card { padding: 22px; } }
+  </style>
+</head>
+<body>
+<main>
+  <section class="card">
+    <h1>Exportador de cursos UCNL</h1>
+    <p>Descarga cursos de Moodle con sus temarios, tutores detectables y recursos disponibles.</p>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% for category, message in messages %}
+        <div class="notice {{ category }}">{{ message }}</div>
+      {% endfor %}
+    {% endwith %}
+    {% if error %}
+      <div class="notice error">{{ error }}</div>
+    {% endif %}
+    {% if logged_in %}
+      <h2>Mis cursos ({{ courses|length }})</h2>
+      {% if courses %}
+        <ul>
+          {% for course in courses %}
+            <li><a href="{{ course.url }}" target="_blank" rel="noopener">{{ course.name }}</a></li>
+          {% endfor %}
+        </ul>
+        <p>El temario incluye el programa de la sección Presentación y explora actividades, subtemas, archivos e imágenes anidadas de las demás unidades.</p>
+        <div class="actions">
+          <form method="post" action="{{ url_for('export') }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf }}">
+            <button id="start-export" type="submit">Preparar descargas por curso</button>
+          </form>
+          <form method="post" action="{{ url_for('logout') }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf }}">
+            <button class="secondary" type="submit">Cerrar sesión</button>
+          </form>
+        </div>
+        <section id="export-progress" class="progress-panel" aria-live="polite" hidden>
+          <h3 id="export-heading">Exportando cursos</h3>
+          <progress id="export-bar" max="1" value="0"></progress>
+          <p id="export-status">Preparando…</p>
+          <p id="export-detail" class="progress-detail"></p>
+          <div class="actions">
+            <button id="cancel-export" class="secondary" type="button">Cancelar exportación</button>
+            <button id="close-export" class="secondary" type="button" hidden>Cerrar</button>
+            <button id="download-course" type="button" hidden></button>
+          </div>
+        </section>
+      {% else %}
+        <p>No se encontraron cursos en esta cuenta.</p>
+      {% endif %}
+    {% else %}
+      <form method="post" action="{{ url_for('login') }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf }}">
+        <label for="username">Usuario de Moodle</label>
+        <input id="username" name="username" autocomplete="username" required>
+        <label for="password">Contraseña</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+        <div class="actions"><button type="submit">Iniciar sesión y cargar cursos</button></div>
+      </form>
+      <p class="privacy">Tus credenciales no se guardan: se envían únicamente a Moodle y se descartan al iniciar sesión. La sesión temporal solo permanece en la memoria de esta aplicación local.</p>
+    {% endif %}
+    <p class="privacy">La aplicación solo se abre en este equipo. Los videos externos (por ejemplo, YouTube) se incluyen como enlaces; únicamente se descargan archivos servidos por Moodle.</p>
+  </section>
+</main>
+{% if logged_in and courses %}
+<script>
+(() => {
+  const form = document.querySelector("form[action='{{ url_for('export') }}']");
+  const startButton = document.getElementById("start-export");
+  const panel = document.getElementById("export-progress");
+  const bar = document.getElementById("export-bar");
+  const statusText = document.getElementById("export-status");
+  const detail = document.getElementById("export-detail");
+  const cancelButton = document.getElementById("cancel-export");
+  const closeButton = document.getElementById("close-export");
+  const downloadLink = document.getElementById("download-course");
+  const csrf = form.querySelector("input[name='csrf_token']").value;
+  let jobId = {{ export_job_id|tojson }};
+  let timer = null;
+  let downloading = false;
+
+  function showError(message) {
+    statusText.textContent = message;
+    cancelButton.hidden = true;
+    closeButton.hidden = false;
+    closeButton.onclick = () => {
+      panel.hidden = true;
+      if (jobId) {
+        fetch(`/export/${encodeURIComponent(jobId)}/dismiss`, {
+          method: "POST",
+          headers: {"Content-Type": "application/x-www-form-urlencoded"},
+          body: new URLSearchParams({csrf_token: csrf})
+        });
+      }
+      jobId = null;
+      startButton.disabled = false;
+    };
+  }
+
+  async function poll() {
+    if (!jobId) return;
+    try {
+      const response = await fetch(`/export/${encodeURIComponent(jobId)}/status`, {
+        cache: "no-store"
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.description || "No se pudo consultar el progreso.");
+      bar.max = Math.max(data.course_count, 1);
+      bar.value = data.completed_courses;
+      const courseProgress = data.course_count
+        ? `Curso ${Math.min(data.completed_courses + (data.ready ? 1 : 0), data.course_count)} de ${data.course_count}`
+        : "Buscando cursos";
+      statusText.textContent = `${courseProgress}: ${data.stage}`;
+      const resourceProgress = data.resource_count
+        ? `Recursos de este curso: ${data.completed_resources} de ${data.resource_count}.`
+        : "";
+      if (!data.ready) downloading = false;
+      detail.textContent = [
+        data.current_course ? `Materia: ${data.current_course}` : "",
+        data.current_resource ? `Elemento: ${data.current_resource}` : "",
+        resourceProgress
+      ].filter(Boolean).join(" ");
+
+      if (data.ready && !downloading) {
+        downloadLink.hidden = false;
+        downloadLink.textContent = `Descargar ${data.ready_name}`;
+      } else {
+        downloadLink.hidden = true;
+      }
+
+      if (data.status === "complete" || data.status === "cancelled" || data.status === "error") {
+        clearInterval(timer);
+        timer = null;
+        cancelButton.hidden = true;
+        closeButton.hidden = false;
+        statusText.textContent = data.error
+          ? `Error: ${data.error}`
+          : data.status === "complete"
+            ? "Exportación terminada. Cada curso se descargó por separado."
+            : "Exportación cancelada.";
+        return;
+      }
+      cancelButton.hidden = data.status === "cancelling";
+      if (!timer) timer = setInterval(poll, 1000);
+    } catch (error) {
+      clearInterval(timer);
+      timer = null;
+      showError(error.message);
+    }
+  }
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    startButton.disabled = true;
+    panel.hidden = false;
+    statusText.textContent = "Iniciando exportación…";
+    detail.textContent = "Los cursos estarán disponibles de uno en uno. Puedes cancelar cuando quieras.";
+    cancelButton.hidden = false;
+    closeButton.hidden = true;
+    try {
+      const response = await fetch(form.action, {method: "POST", body: new FormData(form)});
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "No se pudo iniciar la exportación.");
+      jobId = data.job_id;
+      await poll();
+    } catch (error) {
+      showError(error.message);
+    }
+  });
+
+  downloadLink.addEventListener("click", () => {
+    if (!jobId || downloadLink.hidden) return;
+    downloading = true;
+    downloadLink.hidden = true;
+    window.location.assign(`/export/${encodeURIComponent(jobId)}/course`);
+  });
+
+  cancelButton.addEventListener("click", async () => {
+    if (!jobId) return;
+    cancelButton.disabled = true;
+    statusText.textContent = "Cancelando… la solicitud actual puede tardar unos segundos en detenerse.";
+    try {
+      await fetch(`/export/${encodeURIComponent(jobId)}/cancel`, {
+        method: "POST",
+        headers: {"Content-Type": "application/x-www-form-urlencoded"},
+        body: new URLSearchParams({csrf_token: csrf})
+      });
+      if (!timer) timer = setInterval(poll, 1000);
+    } catch (error) {
+      showError(`No se pudo cancelar: ${error.message}`);
+    } finally {
+      cancelButton.disabled = false;
+    }
+  });
+
+  if (jobId) {
+    startButton.disabled = true;
+    panel.hidden = false;
+    poll();
+  }
+})();
+</script>
+{% endif %}
+</body>
+</html>
