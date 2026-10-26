@@ -109,8 +109,8 @@ mag_P_comp = abs(P_comp_fft);
 
 % Graficamos en una nueva figura para comparar
 figure(4);
-plot(f, mag_P, 'LineWidth', 1.5); hold on;   % Pulso original (ancho 2) en azul
-plot(f, mag_P_comp, 'r', 'LineWidth', 1.5);  % Pulso comprimido (ancho 1) en rojo
+plot(f, mag_P, 'LineWidth', 1.5); hold on;       % Pulso original (ancho 2) en azul
+plot(f, mag_P_comp, 'r', 'LineWidth', 1.5);      % Pulso comprimido (ancho 1) en rojo
 
 title('Propiedad de Escalamiento: Tiempo vs Frecuencia');
 xlabel('Frecuencia (Hz)'); 
