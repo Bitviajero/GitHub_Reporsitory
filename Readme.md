@@ -1,0 +1,1 @@
+Kamen, E., & Heck, B. (2008). Fundamentos de Señales y Sistemas. Editorial Pearson.
