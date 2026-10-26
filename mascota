@@ -1,0 +1,39 @@
+using System;
+
+public class Mascota
+{
+    // 1. Atributos privados (Encapsulamiento) [1, 2]
+    private string nombre;
+    private int edad;
+
+    // 2. Constructor con argumentos [3, 4]
+    public Mascota(string nombre, int edad)
+    {
+        this.nombre = nombre; // "this" diferencia el atributo del argumento [5]
+        this.edad = edad;
+    }
+
+    // 3. Propiedades (Get y Set) [6, 7]
+    public string Nombre
+    {
+        get { return nombre; }
+        set { nombre = value; } // "value" es el dato que llega del exterior [7]
+    }
+
+    // 4. Método de comportamiento [8, 9]
+    public void Saludar()
+    {
+        Console.WriteLine("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
+    }
+}
+
+// Clase para probar la instancia
+class Program
+{
+    static void Main()
+    {
+        // Instanciación de objetos (Ejercicio 1 y 2) [10, 11]
+        Mascota miMascota = new Mascota("Rex", 5);
+        miMascota.Saludar();
+    }
+}

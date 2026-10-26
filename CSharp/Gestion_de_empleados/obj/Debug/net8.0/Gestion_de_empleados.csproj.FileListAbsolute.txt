@@ -1,0 +1,15 @@
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\bin\Debug\net8.0\Gestion_de_empleados.exe
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\bin\Debug\net8.0\Gestion_de_empleados.deps.json
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\bin\Debug\net8.0\Gestion_de_empleados.runtimeconfig.json
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\bin\Debug\net8.0\Gestion_de_empleados.dll
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\bin\Debug\net8.0\Gestion_de_empleados.pdb
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\Gestion_de_empleados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\Gestion_de_empleados.AssemblyInfoInputs.cache
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\Gestion_de_empleados.AssemblyInfo.cs
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\Gestion_de_empleados.csproj.CoreCompileInputs.cache
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\Gestion_de_empleados.sourcelink.json
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\Gestion_de_empleados.dll
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\refint\Gestion_de_empleados.dll
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\Gestion_de_empleados.pdb
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\Gestion_de_empleados.genruntimeconfig.cache
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\Gestion_de_empleados\obj\Debug\net8.0\ref\Gestion_de_empleados.dll

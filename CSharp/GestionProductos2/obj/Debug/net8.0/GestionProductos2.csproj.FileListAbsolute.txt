@@ -1,0 +1,15 @@
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\bin\Debug\net8.0\GestionProductos2.exe
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\bin\Debug\net8.0\GestionProductos2.deps.json
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\bin\Debug\net8.0\GestionProductos2.runtimeconfig.json
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\bin\Debug\net8.0\GestionProductos2.dll
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\bin\Debug\net8.0\GestionProductos2.pdb
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\GestionProductos2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\GestionProductos2.AssemblyInfoInputs.cache
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\GestionProductos2.AssemblyInfo.cs
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\GestionProductos2.csproj.CoreCompileInputs.cache
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\GestionProductos2.sourcelink.json
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\GestionProductos2.dll
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\refint\GestionProductos2.dll
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\GestionProductos2.pdb
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\GestionProductos2.genruntimeconfig.cache
+C:\Users\Alfonso\Desktop\GitHub_Reporsitory\CSharp\GestionProductos2\obj\Debug\net8.0\ref\GestionProductos2.dll
